@@ -1,0 +1,21 @@
+.home-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.eu {
+    height: 200px;
+    width: 150px;
+    border-radius: 100px;
+    margin: 40px;
+}
+h1 {
+    margin: 10px;
+}
+.button {
+    height: 70px;
+    width: 140px;
+}
+.typical {
+    color: white;
+}
