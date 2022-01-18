@@ -1,21 +1,27 @@
 .home-container {
-    display: flex;
-    flex: 1;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    background-color: blue;
+    border-radius: 0 100px 0 100px;
 }
 .eu {
     height: 200px;
     width: 150px;
     border-radius: 100px;
-    margin: 40px;
+    box-shadow: 0 1px 0 0px white;
+    margin-top: 40px;
 }
-h1 {
-    margin: 10px;
-}
+
 .button {
     height: 70px;
     width: 140px;
 }
 .typical {
     color: white;
+}
+.languages {
+    text-align: center;
+    background-color: blue;
 }

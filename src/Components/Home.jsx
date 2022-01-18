@@ -8,11 +8,10 @@ function Home() {
     return (
         <div>
         <div className='home-container'>
+            
             <img src={a} alt=""  className='eu'/>
             <h1>Gustavo Gonzaga</h1>
-            <Button>Me conheça melhor!</Button>
-        </div>
-        <div>
+
             <h2>Linguagens que eu sei:</h2>
             <h1 className='typical'>
                 {" "}
@@ -20,16 +19,19 @@ function Home() {
             loop={Infinity}
             steps={[
                 "HTML",
-                1000,
+                2000,
                 "CSS",
-                1000,
+                2000,
                 "React",
-                1000,
+                2000,
                 "JavaScript",
-                1000,
+                2000,
             ]}
             />
             </h1>
+        </div>
+        <div className='wts'>
+        <i class="fab fa-whatsapp fa-2x" id='wts'></i>
         </div>
         </div>
     )
