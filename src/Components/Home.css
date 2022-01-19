@@ -1,27 +1,35 @@
-.home-container {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    height: 10%;
-    background-color: blue;
-    border-radius: 0 100px 0 100px;
+.btn-menu {
+  background-color: blue;
+  border: none;
+  height: 50px;
+  position: relative;
+  top: 19%;
 }
-.eu {
-    height: 200px;
-    width: 150px;
-    border-radius: 100px;
-    box-shadow: 0 1px 0 0px white;
-    margin-top: 40px;
+.btn-menu:hover {
+  background-color: rgba(0, 0, 255, 0.459);
 }
-
-.button {
-    height: 70px;
-    width: 140px;
+.Botoes {
+  background-color: #666;
+  height: 10vh;
+}
+.pf {
+  display: grid;
+  place-items: center;
+}
+.container-pf {
+  border: black solid 3px;
+  min-height: 100px;
+  min-width: 500px;
+}
+.imgeu {
+  height: 200px;
+  border-radius: 100px;
+  text-align: center;
 }
 .typical {
-    color: white;
+  color: white;
+  text-align: center;
 }
-.languages {
-    text-align: center;
-    background-color: blue;
+#eusei {
+  text-align: center;
 }

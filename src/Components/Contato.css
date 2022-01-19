@@ -1,0 +1,18 @@
+.celular {
+    width: 80%;
+    background-color: #009b5c;
+    
+}
+.box-celular, .email {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+.email {
+    background-color: #0052a5;
+    min-width: 590px;
+}
+.icon-tf {
+    height: 50px;
+    width: 50px;
+}

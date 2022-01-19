@@ -1,0 +1,44 @@
+.projetos-container {
+  display: grid;
+  place-items: center;
+}
+.Projetos {
+  display: grid;
+  place-items: center;
+  border: 5px solid black;
+  box-shadow: 0px 0px 10px white;
+  margin-top: 100px;
+}
+.Projetos:hover {
+  box-shadow: 0px 0px 10px 10px white;
+}
+h1 {
+  color: white;
+  margin: 4px;
+  text-align: center;
+}
+a {
+  color: white;
+  margin: 4px;
+}
+.backBtn {
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+.logo {
+  display: grid;
+  place-items: end;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.logo-img {
+  height: 40px;
+  width: 70px;
+  margin: 5px;
+  cursor: pointer;
+}
+.tudo {
+  height: 100vh;
+}

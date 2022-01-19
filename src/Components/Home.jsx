@@ -1,40 +1,43 @@
-import React from 'react'
-import a from './imagem.jpg'
-import './Home.css'
-import Button from './Button'
-import Typical from 'react-typical'
+import React from "react";
+import Typical from "react-typical";
+import { Link } from "react-router-dom";
+import "./Home.css";
+import Eu from "./eu.jpg";
 
 function Home() {
-    return (
-        <div>
-        <div className='home-container'>
-            
-            <img src={a} alt=""  className='eu'/>
-            <h1>Gustavo Gonzaga</h1>
-
-            <h2>Linguagens que eu sei:</h2>
-            <h1 className='typical'>
-                {" "}
+  return (
+    <div>
+      <div className="Botoes">
+        <Link to="/Projetos">
+          <button className="btn-menu">Projetos</button>
+        </Link>
+        <Link to="/Contato">
+        <button className="btn-menu">Contate-me</button>
+        </Link>
+      </div>
+      <div className="pf">
+        <div className="container-pf">
+          <img src={Eu} alt="" className="imgeu" />
+          <h1>Gustavo Gonzaga</h1>
+          <h2 id="eusei">Linguagens que eu sei:</h2>
+          <h2 className="typical">
+            {" "}
             <Typical
-            loop={Infinity}
-            steps={[
-                "HTML",
-                2000,
-                "CSS",
-                2000,
-                "React",
-                2000,
-                "JavaScript",
-                2000,
+              loop={Infinity}
+              steps={["JavaScript", 1000, 
+              "React", 
+              1000,
+              "HTML",
+              1000,
+              "CSS",
+              1000
             ]}
             />
-            </h1>
+          </h2>
         </div>
-        <div className='wts'>
-        <i class="fab fa-whatsapp fa-2x" id='wts'></i>
-        </div>
-        </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
