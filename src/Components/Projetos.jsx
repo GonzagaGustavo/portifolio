@@ -33,7 +33,7 @@ function Projetos() {
         </div>
       </div>
       <div className="logo">
-        <img src={Img} alt="" className="logo-img" />
+        <a href="https://portifoliogustavo.netlify.app/"><img src={Img} alt="" className="logo-img" /></a>
       </div>
     </div>
   );

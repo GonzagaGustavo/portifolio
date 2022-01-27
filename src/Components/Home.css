@@ -11,10 +11,12 @@
 .Botoes {
   background-color: #666;
   height: 10vh;
+  width: 100%;
 }
 .pf {
   display: grid;
   place-items: center;
+  margin: 10px;
 }
 .container-pf {
   border: black solid 3px;

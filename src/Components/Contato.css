@@ -1,7 +1,6 @@
 .celular {
     width: 80%;
     background-color: #009b5c;
-    
 }
 .box-celular, .email {
     display: grid;
@@ -13,6 +12,16 @@
     min-width: 590px;
 }
 .icon-tf {
+    display: flex;
+    margin: 0px;
+    height: 50px;
+    width: 50px;
+}
+.numero-cel {
+    margin: 0px;
+}
+.icon-email {
+    
     height: 50px;
     width: 50px;
 }
