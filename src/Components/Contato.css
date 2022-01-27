@@ -1,27 +1,65 @@
 .celular {
-    width: 80%;
+    display: flex;
     background-color: #009b5c;
+    border-radius: 10px;
 }
-.box-celular, .email {
+.box-celular {
     display: grid;
     place-items: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .email {
     background-color: #0052a5;
-    min-width: 590px;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 10px;
 }
 .icon-tf {
     display: flex;
-    margin: 0px;
+    margin: 5px;
     height: 50px;
     width: 50px;
 }
 .numero-cel {
-    margin: 0px;
+    margin: 5px;
+    margin-bottom: 0px;
 }
 .icon-email {
-    
+    margin: 5px;
     height: 50px;
     width: 50px;
+}
+#linkzap {
+    margin: 0;
+}
+#email-text {
+    margin: 5px;
+}
+.linkedin {
+    margin-top: 50px;
+    display: flex;
+    background-color: #009b5c;
+    border-radius: 10px;
+}
+.linkedin-icon {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+#linkedin-text {
+    margin-bottom: 0px;
+}
+.github {
+    margin-top: 50px;
+    display: flex;
+    background-color: #222;
+    border-radius: 10px;
+}
+.github-icon {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+#github-text {
+    margin: 5px;
 }
