@@ -27,7 +27,7 @@ function Contato() {
           >
             <FaWhatsapp className="icon-tf" />
           </a>
-          <h1 className="numero-cel">(47) 9 9999-8888</h1>
+          <h1 className="numero-cel">(47) 9 9238-7295</h1>
         </div>
         <div className="email">
           <a href="https://mail.google.com/mail/u/1/?ogbl#inbox?compose=GTvVlcSGLPtmxcpfrsfgBPmZtbtGWXzSlJhQfZjlbJrlPRggXLKmRwqVhzHCZpzjDTfttHffMcjNs">
