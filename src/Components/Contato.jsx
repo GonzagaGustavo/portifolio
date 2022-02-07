@@ -19,6 +19,7 @@ function Contato() {
       <div className="back">
         <BiArrowBack className="backBtn" onClick={clickBack} />
       </div>
+      <div className="informations">
       <div className="box-celular">
         <div className="celular">
           <a
@@ -44,6 +45,7 @@ function Contato() {
         <div className="github">
         <a href="https://github.com/Gustavo13132"><BsGithub className="github-icon"/></a>
         <h1 id="github-text">Gustavo13132</h1>
+        </div>
         </div>
       </div>
     </div>

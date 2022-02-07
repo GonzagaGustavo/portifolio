@@ -6,7 +6,7 @@ import Eu from "./eu.jpg";
 
 function Home() {
   return (
-    <div>
+    <div className="Home">
       <div className="Botoes">
         <Link to="/Projetos">
           <button className="btn-menu">Projetos</button>

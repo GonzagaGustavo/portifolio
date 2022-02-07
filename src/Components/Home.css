@@ -1,7 +1,11 @@
+.Home {
+  width: 100%;
+  height: 100vh;
+}
 .btn-menu {
   background-color: blue;
   border: none;
-  height: 50px;
+  height: 80%;
   position: relative;
   top: 19%;
 }
@@ -20,11 +24,13 @@
 }
 .container-pf {
   border: black solid 3px;
-  min-height: 100px;
-  min-width: 500px;
+  height: auto;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 40px;
+  padding-bottom: 0px;
 }
 .imgeu {
   height: 200px;
