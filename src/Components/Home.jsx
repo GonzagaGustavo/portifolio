@@ -24,13 +24,15 @@ function Home() {
             {" "}
             <Typical
               loop={Infinity}
-              steps={["JavaScript", 1000, 
+              steps={["JavaScript", 1500, 
               "React", 
-              1000,
+              1500,
+              "NODE-JS",
+              1500,
               "HTML",
-              1000,
+              1500,
               "CSS",
-              1000
+              1500
             ]}
             />
           </h2>
