@@ -28,8 +28,8 @@ function Projetos() {
           <a href="https://listadetarefascombomdiaboatardeboanoite.netlify.app/">
             Veja!
           </a>
-          <h1>Relógio feito em JS</h1>
-          <a href="https://relog-io.netlify.app/">Veja!</a>
+          <h1>Iphone 3d feito no React</h1>
+          <a href="https://iphone-3d.netlify.app/">Veja!</a>
         </div>
       </div>
       <div className="logo">
