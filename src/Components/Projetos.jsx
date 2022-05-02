@@ -32,9 +32,8 @@ function Projetos() {
           <a href="https://iphone-3d.netlify.app/">Veja!</a>
         </div>
       </div>
-      <div className="logo">
-        <a href="https://portifoliogustavo.netlify.app/"><img src={Img} alt="" className="logo-img" /></a>
-      </div>
+        <a href="https://portifoliogustavo.netlify.app/" className="link"><img src='logo_white.png' alt="" className="logo-img" /></a>
+
     </div>
   );
 }
